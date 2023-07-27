@@ -17,7 +17,7 @@ class WebGL {
     this.container.appendChild(this.renderer.domElement);
     this.renderer.setPixelRatio(2);
 
-    this.gui = new GUI();
+    //this.gui = new GUI();
     this.time = 0;
     this.addCamera();
     this.addMesh();
@@ -25,8 +25,8 @@ class WebGL {
     this.addLight();
     this.render();
     this.onWindowResize();
-    this.addSetting();
-    this.onMouseMove();
+    //this.addSetting();
+    //this.onMouseMove();
   }
 
   get viewport() {
